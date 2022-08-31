@@ -1,0 +1,5 @@
+web3==5.21.0
+Werkzeug==2.0.1
+py_solc_x==1.1.0
+ethereum==2.3.2
+Flask==2.0.1

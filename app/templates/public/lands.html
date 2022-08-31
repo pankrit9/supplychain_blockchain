@@ -1,0 +1,17 @@
+<!doctype html>
+
+{% extends "public/base.html" %}
+{% block title %}Lands{% endblock %}
+{% block content %}
+<ul>
+    <br>
+    <h1>Land Hashes</h1>
+    {% for file in files %}
+    <li>
+        <a href="{{ (request.path + '/' if request.path != '/' else '') + file }}">
+            {{ ('' if request.path != '/' else '') + file }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}

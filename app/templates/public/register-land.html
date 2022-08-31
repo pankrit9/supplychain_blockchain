@@ -1,0 +1,42 @@
+<!doctype html>
+{% extends "public/base.html" %}
+{% block title %}Register Land{% endblock %}
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <br>
+      <h1>Land Registration</h1>
+      <hr>
+
+      <form action="/register-land" method="POST" enctype="multipart/form-data">
+        <label for="state">State</label><br>
+        <input type="text" id="state" name="state" required="required"><br><br>
+        <label for="suburb">Suburb:</label><br>
+        <input type="text" id="suburb" name="suburb" required="required"><br><br>
+        <label for="street">Street:</label><br>
+        <input type="text" id="street" name="street" required="required"><br><br>
+        <label for="street_num">Street_num</label><br>
+        <input type="number" id="street_num" name="street_num" required="required"><br><br>
+        <label for="owner_addr">Owner Ethereum Address</label><br>
+        <input type="text" id="owner_addr" name="owner_addr" required="required"><br><br>
+
+        <br>
+
+        <div class="form-group">
+          <label>Select document</label>
+          <div class="custom-file">
+            <input type="file" accept="application/pdf" class="custom-file-input" name="document" id="document" required="required">
+            <label class="custom-file-label" for="document"> e.g. land_document.pdf </label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary" =>Submit</button>
+        <br> <br>
+      </form>
+
+    </div>
+  </div>
+</div>
+{% endblock %}
+
