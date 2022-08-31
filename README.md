@@ -1,12 +1,5 @@
 # COMP6452 PROJECT 2
 
-## Blockchain-based Application Design and Development
-
-- Ayaan Adil - z5213315
-- Mison Caamwang - z5162229
-- Harshwardhan Kothari - z5268980
-- Tam Nguyen - z5313514
-
 ## Main Google Doc:
 - https://docs.google.com/document/d/1lfE0K9UQfxrSmzA1zIpZJUV2pkRcasG8fUO4IfDUfWM/edit?usp=sharing
 
