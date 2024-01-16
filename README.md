@@ -1,16 +1,4 @@
-# COMP6452 PROJECT 2
-
-## Main Google Doc:
-- https://docs.google.com/document/d/1lfE0K9UQfxrSmzA1zIpZJUV2pkRcasG8fUO4IfDUfWM/edit?usp=sharing
-
-## Task 2 Slides:
-- https://docs.google.com/presentation/d/1qUobT-pdPY3Uh3vWTycIdTK3M0AfGlxEuyDjAWFdi7M/edit#slide=id.ge25921cb9f\_0\_7
-
-## Task 3 Slides:
-- https://docs.google.com/presentation/d/1jar5hRAssl49cjw4rC9b8aVgny7djnssSKkqQUhfDbQ/edit?usp=sharing
-
-## Gitlab Repo:
-- https://gitlab.cse.unsw.edu.au/z5313514/comp6452\_project\_2
+# Supply Chain Solution using Blockchain
 
 ## Notes:
 
