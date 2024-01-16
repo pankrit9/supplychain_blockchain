@@ -1,4 +1,62 @@
-# Supply Chain Solution using Blockchain
+# Blockchain-Based Land Title Management
+
+## Overview
+This project implements a blockchain-based system for land title management, addressing several challenges in the traditional land registry processes. By leveraging blockchain technology, the system aims to enhance transparency, security, and efficiency in land title management.
+
+## Challenges in Traditional Land Title Management
+- Centralization and Trust: Traditional systems are often centralized, leading to potential misuse of power and lack of public trust.
+- Forgery: Paper-based land titles are prone to forgery and manipulation.
+- Document Damage/Loss: Physical documents can be damaged or lost, leading to disputes and complications.
+- Complexity: The conventional process involves complicated interactions with multiple government departments.
+- Traceability: In many regions, tracing the history of land ownership is challenging.
+
+## Blockchain Solution
+
+Our blockchain-based solution addresses these challenges:
+
+Decentralization: Removes centralized control, replacing trust with cryptographic verification.
+Transparency and Security: Real-time verification of land ownership and transparent transaction history.
+Digital Records: Digital documentation reduces risks of damage or loss.
+Simplified Processes: Smart contracts automate and streamline transactions.
+Traceability: A clear, accessible record of land ownership history.
+
+## Functional and Non-Functional Requirements
+
+### Functional:
+
+Access to land information
+Registration and transfer of land ownership
+Partition sales among multiple owners
+Off-chain storage of legal documents
+Public/private key cryptography for transactions
+
+### Non-Functional:
+
+Availability: Web-based access on various devices
+Data Integrity: Immutability of records
+Latency: Quick transaction confirmations
+Scalability: Performance with increasing demands
+Security: Protection of identities and transactions
+
+## Development Plan
+Blockchain Platform: Ethereum
+Off-Chain Components:
+Oracle: Chain Link
+Database: Cloud-based storage for land-related documents
+
+## Domain Background
+
+In many developing countries, the lack of a trusted and transparent land registry system poses significant challenges. With over 70% of the world’s population lacking legally registered land titles, blockchain technology offers a decentralized and secure solution to this problem.
+
+## Implementation Details
+Blockchain Platform: Ethereum
+Database: Combination of blockchain and cloud storage
+Hashing Algorithm: sha256sum for off-chain computations
+User Interface: land_gui.py and land_listener.py for local hosting
+
+## Conclusion
+
+This project demonstrates the potential of blockchain technology in transforming land title management systems, especially in regions where traditional methods are fraught with challenges. Our solution aims to bring about a paradigm shift in how land titles are managed, making them more secure, transparent, and accessible.
 
 ## Notes:
 
